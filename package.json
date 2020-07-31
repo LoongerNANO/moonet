@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://gitee.com/loonger_nano/Geomodules.git"
+        "url": "https://github.com/LoongerNANO/moonet.git"
     },
     "author": "Loonger Nano < loonger_smart@hotmail.com >",
     "dependencies": {
