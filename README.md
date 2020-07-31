@@ -3,9 +3,6 @@
 > **项目概述**  
 
 
-> **esriLoader**  
-A tiny library to help load modules from either the 4.x or 3.x versions of the ArcGIS API for JavaScript in non-Dojo applications.
-
 > **技术栈**  
 
 [![babel](https://img.shields.io/static/v1.svg?label=babel&message=6.23.0&color=red)]()
@@ -16,7 +13,6 @@ A tiny library to help load modules from either the 4.x or 3.x versions of the A
 [![ArcGIS API for JavaScript](https://img.shields.io/static/v1.svg?label=ArcGIS-API-for-JavaScript&message=4.11&color=EEE30F)]()
 
 ## 目录结构
-
 
 
 ## 部署及命令
