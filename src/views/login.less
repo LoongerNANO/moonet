@@ -1,0 +1,103 @@
+/*!
+ * less Library - login.less
+ * loonger_smart@hotmail.com
+ * ~
+ */
+ @f-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+ .login {
+     &-con {
+         overflow: hidden;
+         margin: auto;
+         position: absolute;
+         top: 0;
+         left: 0;
+         bottom: 0;
+         right: 0;
+         width: 300px;
+         height: 600px;
+         &-logo {
+             text-align: center;
+             margin-bottom: 20px;
+         }
+         &-logo img {
+             width: 50px;
+         }
+         &-logo p {
+             font-size: 20px;
+             font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+             font-weight: 100;
+             color: #656565;
+             text-shadow: rgba(255, 255, 255, 0.9) 0px 1px;
+             margin-top: 20px;
+         }
+         &-welcome {
+             font-size: 19px;
+             margin-top: -3px;
+         }
+         &-header {
+             font-size: 16px;
+             font-weight: 300;
+             text-align: center;
+             padding: 30px 0;
+         }
+         .form-con {
+             padding: 0;
+             &-title {
+                 font-family: @f-family;
+                 font-weight: 600;
+                 color: #24292e;
+                 font-size: 14px;
+             }
+         }
+         .login-tip {
+             font-size: 10px;
+             text-align: right;
+             color: #888888;
+             letter-spacing: 0.3px;
+             font-weight: 100;
+             font-family: @f-family;
+             transform: scale(0.833333);
+             margin: 15px 0 5px 120px;
+         }
+     }
+     .create-account-callout {
+        border: 1px solid #d8dee2;
+        border-radius: 5px;
+        padding: 15px 20px;
+        text-align: center;
+        background: #fff;
+        font-size: 12px;
+     }
+     .mt-3 {
+         margin-top: 16px!important;
+     }
+     .sub-to {
+         margin-top: 17px;
+     }
+     .ivu-input-prefix i,
+     .ivu-input-suffix i {
+         font-size: 18px;
+         line-height: 30px;
+         color: #808695;
+     }
+     .ivu-card-head-inner,
+     .ivu-card-head p {
+         font-weight: 100;
+         text-shadow: rgba(255, 255, 255, 0.9) 0px 1px;
+         color: #797979;
+     }
+     .ivu-form-item {
+         margin-bottom: 5px;
+     }
+     .ivu-card-bordered {
+         border: 1px solid #d8dee2;
+         border-color: #d8dee2;
+     }
+     .ivu-card-head {
+         border-bottom: 1px solid #d8dee2;
+     }
+     input::-webkit-input-placeholder {
+         font-size: 11px;
+         color: #acacac
+     }
+ }
