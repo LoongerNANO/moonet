@@ -15,7 +15,7 @@
     "author": "Loonger Nano < loonger_smart@hotmail.com >",
     "dependencies": {
         "animate.css": "^3.7.0",
-        "axios": "^0.17.1",
+        "axios": "^0.21.1",
         "cascader-multi": "^2.0.3",
         "chart.js": "^2.8.0",
         "clipboard": "^1.7.1",
